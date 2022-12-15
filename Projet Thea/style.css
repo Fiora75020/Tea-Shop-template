@@ -1,0 +1,124 @@
+*{
+    background: rgb(0, 0, 0);
+    color: rgb(197, 194, 194);
+    margin: 10px;
+    padding: 0;
+
+}
+
+.nav {
+    margin: 0 0 0 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 1em;
+    justify-content: space-around;
+}
+
+.OurMission{
+    background-image: url("./asset/img/img-bedford-bizarre.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin: 0 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.85;
+    
+  
+}
+
+.BlocTextMission{
+text-align: center;
+width: 100%;
+
+}
+
+h2{
+    margin: 2px 0 10px 0;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+.section2{
+    width: 1000px;
+    display: contents;
+}
+
+.text1{
+    text-align: center;
+    margin: 20px 0 10px 0;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.teaOfTheMonth{
+    display: flex;
+    justify-content: center;
+   align-content: center;
+
+}
+
+.teaOfTheMonth2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card{
+    text-align: center;
+    margin: 10px 10px 10px 10px ;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.location{
+        background-image: url("./asset/img/img-locations-background.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 700px;
+        margin: 70px 0 0 20px;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 0.85;
+        height: 500px;
+        display: flex;
+
+}
+
+.boxText{
+    height: 300px;
+    width: 300px;
+    background: black;
+    opacity: 1;
+    margin: 0 40px 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+   
+   
+}
